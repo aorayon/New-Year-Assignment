@@ -1,9 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 .banner{
     background-image: url(resources/Banner\ Image.png);
     background-position: center;
     border-radius: 10px;
+   
     height: 600px;
     background-color: #070211;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+
 }
 .heading{
     display: flex;
@@ -22,23 +33,44 @@
     color: white;
     text-align: center;
 }
+.offsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .off{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.off h1,h3{
+    color: red;
+}
 .welcome{
     background-image: url(/resources/Vectorrr.png);
+
     background-position: center;
     border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: linear-gradient(to right, black, white); */
+
     height: 600px;
+    margin: 20px auto;
 }
 .welcome{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.welcome button{
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: 0;
 }
 .invitation h1 {
     font-size: 64px;
@@ -49,8 +81,11 @@
     color: white;
 }
 .join{
-    margin-top: 80px;
+   
+    height: 482px;
+    margin: 20px auto;
     background: linear-gradient(to bottom, #ffb6c1, #ffffff);
+
 }
 .joinnow{
     padding: 50px;
@@ -70,15 +105,80 @@
     background-color: red;
 }
 .comingsoon{
-    margin-top: 80px;
+    margin: 20px auto;
     display: flex;
     justify-content: space-between;
-    
+   
     align-items: center;
+}
+.image-container {
+    border: 15px solid rgb(243, 7, 7);
+    border-radius: 50%;
+}
+.image-container img{
+    border: 30px solid white;
+    border-radius: 50%;
+    width: 340px;
+}
+.holiday-sale-section {
+   
+    height: 978px;
+    margin: 20px auto;
+}
+
+.holidaytext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .holiday-image-container {
+    width: 1320px;
+    height: 800px;
+   
+} */
+.holiday-image-group {
+    position: absolute;
+} 
+.holiday-image-top-group {
+    display: flex;
+    width: 100vw;
+    
+}
+.holiday-image-group-01 {
+    position: relative;
+   z-index: 1;
+   background-color: transparent;
+}
+.holiday-image-group-02 {
+    position: relative;
+    top: 50px;
+    z-index: 1;
+    margin-left: -70px;
+    
+}
+
+.holiday-image-group-03 {
+    position: relative;
+    top: 0;
+    left: -183px;
+    
+}
+.holiday-image-group-04 {
+    position: relative;
+    top: -250px;
+    width: 100vw;
+}
+.holiday-image-group-04 img {
+    width: 100vw;
+}
+.awesome-section {
+width: 100%;
+margin: -150px auto;
 }
 .awesomeimgcontainer{
     display: flex;
     flex-direction: column;
+    width: fit-content;
     
 }
 .awesomeimgcontainer img{
@@ -86,7 +186,7 @@
 }
 
 .awesomeimgcontainer img:hover {
-    transform: scale(1.1); /* Increase the size of the image on hover */
+    transform: scale(1.1); 
 }
 
 .awesomeimg{
@@ -95,11 +195,16 @@
 }
 
 .footer{
-    width: 1600;
+    width: 100vw;
     height: 609;
-    padding:40px;
+    margin: 150px 0 0;
+    
     background-color: #070211;
     color: white;
+}
+
+.footer div{
+    padding: 10px 40px 0 ;
 }
 
 .address{
