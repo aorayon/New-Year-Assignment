@@ -73,14 +73,61 @@
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
+    
     align-items: center;
 }
 .awesomeimgcontainer{
     display: flex;
     flex-direction: column;
+    
+}
+.awesomeimgcontainer img{
+    margin: 5px;
+}
+
+.awesomeimgcontainer img:hover {
+    transform: scale(1.1); /* Increase the size of the image on hover */
 }
 
 .awesomeimg{
     display: flex;
 
+}
+
+.footer{
+    width: 1600;
+    height: 609;
+    padding:40px;
+    background-color: #070211;
+    color: white;
+}
+
+.address{
+    display: flex;
+    justify-content: space-between;
+}
+.communication p{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.socialIcon{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.socialIcon img{
+    margin: 10px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright button{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    
 }
