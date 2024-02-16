@@ -1,0 +1,86 @@
+.banner{
+    background-image: url(resources/Banner\ Image.png);
+    background-position: center;
+    border-radius: 10px;
+    height: 600px;
+    background-color: #070211;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newyear{
+    font-size: 28px;
+    color: white;
+    padding-top: 60px;
+}
+
+.party{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+.off{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    background-image: url(/resources/Vectorrr.png);
+    background-position: center;
+    border-radius: 10px;
+    height: 600px;
+}
+.welcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.invitation h1 {
+    font-size: 64px;
+    font-family: merriweather;
+    color: white;
+}
+.invitation P{
+    color: white;
+}
+.join{
+    margin-top: 80px;
+    background: linear-gradient(to bottom, #ffb6c1, #ffffff);
+}
+.joinnow{
+    padding: 50px;
+    text-align: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.btnjoin{
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+}
+.comingsoon{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.awesomeimgcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.awesomeimg{
+    display: flex;
+
+}
